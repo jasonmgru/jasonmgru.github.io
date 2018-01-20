@@ -34,10 +34,10 @@ while(i < 3){
     let upperList = $("#upperList");
 
     //creates a list item with a role in it
-    let role = $("<p>"+ roles[i] +"</p>");
+    let role = $('<div class="role text-center">'+ roles[i] +'</div>');
 
     //adds li to the list
-    //upperList.append(role);
+    upperList.append(role);
 
     //this will happen two more times
     i++;
