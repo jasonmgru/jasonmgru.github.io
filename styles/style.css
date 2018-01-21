@@ -7,17 +7,17 @@ body {
 }
 
 #name {
-    font-size: 6rem;
+    font-size: 8vw;
 }
 
 #school {
-    font-size: 3rem;
+    font-size: 4vw;
 }
 
 .role {
     padding: 5px;
     font-family: "Lobster", cursive;
-    font-size: 2rem;
+    font-size: 2.5vw;
     color: #747474; 
 }
 
