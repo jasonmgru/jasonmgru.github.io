@@ -1,10 +1,13 @@
 /// <reference path="https://code.jquery.com/jquery-3.2.1.slim.min.js"/>
 
+//important roles. These stay at the top.
+var important_roles = ["web developer", "iOS developer", "programmer"]
+
 //roles that I take in my life. I'll keep adding more.
-var roles = ["web developer", "boyfriend", "brother", "trombone player", 
+var roles = ["boyfriend", "brother", "trombone player", 
          "baller", "coffee drinker", "barista", "life enjoyer", "minnesotan", 
          "american", "breakfast lover", "gamer", "vikings fan", 
-         "walker", "son", "iOS developer", "programmer", "student", "teacher",
+         "walker", "son", "student", "teacher",
          "wingman"];
 
 //Found this online. Thanks StackOverflow!
@@ -22,6 +25,7 @@ function shuffle(a) {
 }
 
 //shuffles the list of roles that I take
+shuffle(important_roles);
 shuffle(roles);
 
 //puts the list of roles on the front page of my site
@@ -36,7 +40,7 @@ while(i < 3){
     let upperList = $("#upperList");
 
     //creates a div item with the role in it
-    let role = $('<div class="role text-center">'+ roles[i] +'</div>');
+    let role = $('<div class="role text-center">'+ important_roles[i] +'</div>');
 
     //adds the role to the list
     upperList.append(role);
@@ -45,16 +49,17 @@ while(i < 3){
 }
 
 //puts the rest of the items on the bottom
-while(i < roles.length){
+var j = 0;
+while(j < roles.length){
 
     //selects the list below the giant Jason Gruenhagen 
     let lowerList = $("#lowerList");
 
     //creates div with the role in it
-    let role = $('<div class="role text-center">'+ roles[i] +'</div>');
+    let role = $('<div class="role text-center">'+ roles[j] +'</div>');
 
     //adds the role to the list
     lowerList.append(role);
 
-    i++;
+    j++;
 }
