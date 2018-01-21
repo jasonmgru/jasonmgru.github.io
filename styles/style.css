@@ -50,6 +50,7 @@ body {
     }
 }
 
+/* Finally, this is small (phones) */
 @media all and (max-width: 429px){
     #name {
         font-size: 15vw;
@@ -59,6 +60,3 @@ body {
         font-size: 7.5vw;
     }
 }
-
-/* Finally, this is small (phones) */
-@media all and ()
