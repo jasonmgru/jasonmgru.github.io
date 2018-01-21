@@ -1,9 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+body {
+    font-family: 'Archivo Black', sans-serif;
+}
 
 #name {
     font-size: 6rem;
 }
 
+#school {
+    font-size: 3rem;
+}
+
 .role {
-    
+    padding: 5px;
+    font-family: "Lobster", cursive;
+    font-size: 2rem;
+    color: #747474; 
+}
+
+.spacer {
+    margin: 2rem;
 }

@@ -28,17 +28,33 @@ shuffle(roles);
 var i = 0;
 let upperList = $("#upperList");
 let name = $("#name");
+
+//puts three of them on the top 
 while(i < 3){
 
     //selects the list above the giant Jason Gruenhagen on my homepage.
     let upperList = $("#upperList");
 
-    //creates a list item with a role in it
+    //creates a div item with the role in it
     let role = $('<div class="role text-center">'+ roles[i] +'</div>');
 
-    //adds li to the list
+    //adds the role to the list
     upperList.append(role);
 
-    //this will happen two more times
+    i++;
+}
+
+//puts the rest of the items on the bottom
+while(i < roles.length){
+
+    //selects the list below the giant Jason Gruenhagen 
+    let lowerList = $("#lowerList");
+
+    //creates div with the role in it
+    let role = $('<div class="role text-center">'+ roles[i] +'</div>');
+
+    //adds the role to the list
+    lowerList.append(role);
+
     i++;
 }
