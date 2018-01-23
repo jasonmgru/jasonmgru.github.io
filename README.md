@@ -15,6 +15,8 @@ This website was pretty easy to make. I have to give credit to:
 There will be more, trust me.
 
 ## TODO
+* contact me page (PRIORITY NO. 1 right now)
+* try to fix mobile formatting with 'see my resume' button
 * virtual assistant with my voice (WAY long term. Sorry.)
 * blog
 * Youtube videos that I like. VSauce comes to mind.
