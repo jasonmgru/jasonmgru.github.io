@@ -12,3 +12,8 @@ h1, h2, h3, h4, h5, h6 {
 .spacer {
     margin: 2rem;
 }
+
+.col-lg-4, .row, .card {
+    padding: 0;
+    margin: 0;
+}
