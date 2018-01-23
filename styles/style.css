@@ -22,6 +22,10 @@ nav {
     font-size: 1.25em;
 }
 
-.btn {
+.mybtn {
     color: crimson;
+}
+
+.mybtn:hover, .mybtn:focus {
+    color: rgb(134, 18, 41);
 }
