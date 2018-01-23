@@ -29,3 +29,7 @@ nav {
 .mybtn:hover, .mybtn:focus {
     color: rgb(134, 18, 41);
 }
+
+.proj {
+    margin-top: 20px;
+}
