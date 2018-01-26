@@ -10,7 +10,6 @@ var roles = ["boyfriend", "brother", "trombone player",
          "walker", "son", "student", "teacher",
          "wingman"];
 
-//Found this online. Thanks StackOverflow!
 function shuffle(a) {
 /*  This shuffle function was found on StackOverflow. 
     This is an implementation of the Fisher-Yates Shuffle algorithm. */
@@ -36,13 +35,8 @@ let name = $("#name");
 //puts three of them on the top 
 while(i < 3){
 
-    //selects the list above the giant Jason Gruenhagen on my homepage.
     let upperList = $("#upperList");
-
-    //creates a div item with the role in it
     let role = $('<div class="role text-center">'+ important_roles[i] +'</div>');
-
-    //adds the role to the list
     upperList.append(role);
 
     i++;
@@ -52,13 +46,8 @@ while(i < 3){
 var j = 0;
 while(j < roles.length){
 
-    //selects the list below the giant Jason Gruenhagen 
     let lowerList = $("#lowerList");
-
-    //creates div with the role in it
     let role = $('<div class="role text-center">'+ roles[j] +'</div>');
-
-    //adds the role to the list
     lowerList.append(role);
 
     j++;
