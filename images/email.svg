@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg _SVGFile__filename="oldscale/actions/aobottom.svg" sodipodi:docbase="/home/danny" sodipodi:docname="3.svg" sodipodi:version="0.32" version="1.0" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd">
+ <sodipodi:namedview bordercolor="#666666" borderopacity="1.0" pagecolor="#ffffff"/>
+ <g transform="matrix(1.0124 0 0 1.0124 -.37266 -.37266)" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m4.6901 16.05h50.62v27.9h-50.62l1e-4 -27.9z" color="#000000" display="block" fill="none" stroke="#fff" stroke-width="7.408" sodipodi:nodetypes="ccccc"/>
+  <path d="m4.6901 16.05h50.62v27.9h-50.62l1e-4 -27.9z" color="#000000" display="block" fill="#fff" stroke="#000" stroke-width="2.4693" sodipodi:nodetypes="ccccc"/>
+  <path d="m53.52 16.38l-21.565 14.196c-1.083 0.864-2.827 0.864-3.91 0l-21.565-14.196" color="#000000" display="block" fill="none" stroke="#000" stroke-width="2.4693" sodipodi:nodetypes="cccc"/>
+ </g>
+</svg>
