@@ -8,8 +8,8 @@
     font-size: 2.5rem;
 }
 
-#name, #school {
-    color: crimson;
+#name, #school{
+    color: rgb(255, 0, 80);
 }
 
 /* This is intended for large screens (laptops, desktops, tvs, etc) */

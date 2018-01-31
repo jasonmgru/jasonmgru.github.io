@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Archivo', sans-serif;
+    user-select: all;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,13 +24,13 @@ h1, h2, h3, h4, h5, h6 {
 @media all and (min-width: 992px) {
     #resume {
         color: white;
-        background: linear-gradient(rgb(240, 20, 60), rgb(195, 20, 60));
+        background: linear-gradient(rgb(255, 0, 100), rgb(220, 20, 80));
         border-radius: 6px;
-        border-color:crimson;
+        border-color:rgb(220, 20, 80);
     }
 
     #resume:hover, #resume:focus {
-        background: linear-gradient(crimson,  crimson);
+        background: linear-gradient(rgb(255, 0, 80),  rgb(255, 0, 80));
         text-decoration: none;
     }
 }
@@ -41,11 +42,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mybtn {
-    color: crimson;
+    color: rgb(255, 0, 80);
 }
 
 .mybtn:hover, .mybtn:focus {
-    color: rgb(150, 20, 60);
+    color: rgb(220, 20, 80);
 }
 
 .proj {
