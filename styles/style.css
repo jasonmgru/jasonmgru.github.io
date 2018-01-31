@@ -18,6 +18,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+
+/* CHECK OUT BOTTOM OF FILE FOR SPECIAL COMMENT ABOUT THIS */
 @media all and (min-width: 992px) {
     #resume {
         color: white;
@@ -49,3 +51,11 @@ h1, h2, h3, h4, h5, h6 {
 .proj {
     margin-top: 20px;
 }
+
+/* Look, I know that using a linear gradient from one color to the exact same 
+   color is redundant and probably expensive. However, if I only set the 
+   background to a single color on hover, there is a conflict with Bootstrap's
+   button object. I want that special button to also be a Bootstrap button, so
+   I had to use the linear gradient in #resume:hover. 
+   End rant.
+*/
