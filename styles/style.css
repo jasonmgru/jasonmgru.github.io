@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .spacer {
-    margin: 1em;
+    margin: 2vh;
 }
 
 .col-lg-4, .row, .card {
@@ -18,12 +18,27 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+@media all and (min-width: 992px) {
+    #resume {
+        color: white;
+        background: linear-gradient(crimson, rgb(150, 20, 60));
+        border-radius: 6px;
+        border-color: rgb(150, 20, 60);
+    }
+}
+
+@media all and (max-width: 991px) {
+    #resume {
+        padding: 0;
+    }
+}
+
 .mybtn {
     color: crimson;
 }
 
 .mybtn:hover, .mybtn:focus {
-    color: rgb(134, 18, 41);
+    color: rgb(150, 20, 60);
 }
 
 .proj {
