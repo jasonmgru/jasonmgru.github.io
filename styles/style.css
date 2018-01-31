@@ -25,6 +25,11 @@ h1, h2, h3, h4, h5, h6 {
         border-radius: 6px;
         border-color: rgb(150, 20, 60);
     }
+
+    #resume:hover, #resume:focus {
+        background: linear-gradient(rgb(150, 20, 60),  rgb(150, 20, 60));
+        text-decoration: none;
+    }
 }
 
 @media all and (max-width: 991px) {
