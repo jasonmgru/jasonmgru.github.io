@@ -23,13 +23,13 @@ h1, h2, h3, h4, h5, h6 {
 @media all and (min-width: 992px) {
     #resume {
         color: white;
-        background: linear-gradient(crimson, rgb(150, 20, 60));
+        background: linear-gradient(rgb(240, 20, 60), rgb(195, 20, 60));
         border-radius: 6px;
-        border-color: rgb(150, 20, 60);
+        border-color:crimson;
     }
 
     #resume:hover, #resume:focus {
-        background: linear-gradient(rgb(150, 20, 60),  rgb(150, 20, 60));
+        background: linear-gradient(crimson,  crimson);
         text-decoration: none;
     }
 }
