@@ -5,6 +5,9 @@ This is my web portfolio. Right now, it's basically intended to be an edgy onlin
 
 This website will contain my social media, hackathon and personal projects, a little bit about me, and my resume. I will add more cool stuff as I think of it (blog, virtual assistant, cool videos I've found on Youtube...)
 
+## How to use
+If you haven't tried this already, click the link at the top of the page 
+
 ## Credits
 This website was pretty easy to make. I have to give credit to:
 * Bootstrap https://getbootstrap.com/
@@ -16,6 +19,7 @@ There will be more, trust me.
 
 ## TODO
 * contact me page (PRIORITY NO. 1 right now)
+* custom domain name (jasonmgru.com)
 * virtual assistant with my voice (WAY long term. Sorry.)
 * blog
 * Youtube videos that I like. VSauce comes to mind.
