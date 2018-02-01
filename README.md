@@ -6,7 +6,9 @@ This is my web portfolio. Right now, it's basically intended to be an edgy onlin
 This website will contain my social media, hackathon and personal projects, a little bit about me, and my resume. I will add more cool stuff as I think of it (blog, virtual assistant, cool videos I've found on Youtube...)
 
 ## How to use
-If you haven't tried this already, click the link at the top of the page 
+My portfolio page is currently hosted by GitHub pages. Go to https://jasonmgru.github.io/ to see the hosted page. 
+
+If, instead, you want to download the page (and source files) and view them locally, clone this repository and click index.html. 
 
 ## Credits
 This website was pretty easy to make. I have to give credit to:
