@@ -4,12 +4,12 @@
 .role {
     padding: 5px;
     font-family: "Lobster", cursive;
-    color: #747474; 
+    color: #afafaf; 
     font-size: 2.5rem;
 }
 
 #name, #school{
-    color: rgb(255, 0, 80);
+    color: crimson;
 }
 
 /* This is intended for large screens (laptops, desktops, tvs, etc) */

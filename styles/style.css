@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo');
 
 body {
-    font-family: 'Archivo', sans-serif;
-}
+    font-family: 'Archivo', sans-serif;}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Archivo Black', sans-serif;
@@ -23,13 +22,13 @@ h1, h2, h3, h4, h5, h6 {
 @media all and (min-width: 992px) {
     #resume {
         color: white;
-        background: linear-gradient(rgb(255, 0, 100), rgb(220, 20, 80));
+        background: linear-gradient(rgb(250, 20, 65), rgb(190, 20, 55));
         border-radius: 6px;
-        border-color:rgb(220, 20, 80);
+        border-color:rgb(190, 20, 55);
     }
 
     #resume:hover, #resume:focus {
-        background: linear-gradient(rgb(255, 0, 80),  rgb(255, 0, 80));
+        background: linear-gradient(crimson, crimson);
         text-decoration: none;
     }
 }
@@ -41,11 +40,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mybtn {
-    color: rgb(255, 0, 80);
+    color: crimson;
 }
 
 .mybtn:hover, .mybtn:focus {
-    color: rgb(220, 20, 80);
+    color: rgb(148, 15, 41);
 }
 
 .proj {
