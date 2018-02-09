@@ -20,12 +20,9 @@ This website was pretty easy to make. I have to give credit to:
 There will be more, trust me.
 
 ## TODO
-* contact me page (PRIORITY NO. 1 right now)
-* custom domain name (jasonmgru.com)
 * virtual assistant with my voice (WAY long term. Sorry.)
 * blog
 * Youtube videos that I like. VSauce comes to mind.
 * basic programming tutorials taught by me? Like thenewboston...
 * link to iOS game that I will have made
 * recipes that I've invented
-* homepage of the resistance to Amazon's dominion
