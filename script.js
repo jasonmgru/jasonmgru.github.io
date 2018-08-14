@@ -1,7 +1,7 @@
 /// <reference path="https://code.jquery.com/jquery-3.2.1.slim.min.js"/>
 
 //important roles. These stay at the top.
-var important_roles = ["web developer", "iOS developer", "programmer"]
+var important_roles = ["web developer", "android developer", "programmer"]
 
 //roles that I take in my life. I'll keep adding more.
 var roles = ["boyfriend", "brother", "trombone player", 
